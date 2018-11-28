@@ -12,7 +12,6 @@ const App = () => {
                 <Route exact path="/about" component={About}/>
                 <Route exact path="/start" component={Start}/>
             </Switch>
-            App
         </div>
     )
 };
