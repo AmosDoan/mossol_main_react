@@ -45,7 +45,10 @@ class Menu extends Component {
                                 <NavLink to="/" activeClassName="active" tag={RRNavLink}>Home</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/about" activeClassName="active" tag={RRNavLink}>About</NavLink>
+                                <NavLink to="/aboutAmos" activeClassName="active" tag={RRNavLink}>About Amos</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink to="/about" activeClassName="active" tag={RRNavLink}>About Mossol</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink to="/start" activeClassName="active" tag={RRNavLink}>Start</NavLink>

@@ -1,6 +1,6 @@
 import React from 'react';
 import {HashLink as Link} from 'react-router-hash-link';
-import { Jumbotron, Button } from 'reactstrap';
+import { Container, Jumbotron, Button } from 'reactstrap';
 
 const Home = () => {
     return (
@@ -14,8 +14,10 @@ const Home = () => {
                     <Link to="/start#smarttv_guide"><Button color="warning">Smart TV</Button></Link>{' '}
                 </p>
             </Jumbotron>
-            <h1>Mossol에 오신것을 환영합니다!</h1>
-            <p className="lead">환영합니다!</p>
+            <Container>
+                <h1>Mossol에 오신것을 환영합니다!</h1>
+                <p className="lead">환영합니다!</p>
+            </Container>
         </div>
     );
 };
