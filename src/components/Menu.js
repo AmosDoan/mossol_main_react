@@ -21,7 +21,8 @@ class Menu extends Component {
         this.toggle = this.toggle.bind(this);
         this.state = {
             isOpen : false
-        }
+        };
+        document.title = "Welcome to Mossol";
     }
 
     toggle() {
