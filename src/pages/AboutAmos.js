@@ -69,7 +69,7 @@ const AboutAmos = () => {
                 <Row className="mt-4">
                     <h1>Education <GiGraduateCap/></h1>
                 </Row>
-                <Row className="mt-4">
+                <Row>
                     <Col>
                         <a href="http://cse.snu.ac.kr"><h4>SEOUL NATIONAL UNIVERSITY</h4></a>
                         <p>Jan. 2013 - Mar. 2015</p>
