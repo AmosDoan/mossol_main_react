@@ -43,16 +43,16 @@ class Menu extends Component {
                     <Collapse navbar isOpen={this.state.isOpen}>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink to="/" activeClassName="active" tag={RRNavLink}>Home</NavLink>
+                                <NavLink to="/" activeClassName="active" tag={RRNavLink}>메인</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/aboutAmos" activeClassName="active" tag={RRNavLink}>About Amos</NavLink>
+                                <NavLink to="/aboutAmos" activeClassName="active" tag={RRNavLink}>주인장 소개</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/about" activeClassName="active" tag={RRNavLink}>About Mossol</NavLink>
+                                <NavLink to="/start" activeClassName="active" tag={RRNavLink}>잡동사니 메뉴얼</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/start" activeClassName="active" tag={RRNavLink}>Start</NavLink>
+                                <NavLink to="/openCollege" activeClassName="active" tag={RRNavLink}>오픈컬리지 Python</NavLink>
                             </NavItem>
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>

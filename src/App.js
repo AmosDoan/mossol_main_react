@@ -1,15 +1,26 @@
 import React from 'react';
 import {Switch, Route}  from 'react-router-dom';
 import Menu from 'components/Menu';
-import {About, AboutAmos, Home, Start} from 'pages';
+import {OpenCollege, AboutAmos, Home, Start} from 'pages';
 
 const App = () => {
+    let priorSessionTable = [];
+    for (let i = 0; i < 8; i++) {
+        const sessionUrl = "https://mossol.net/session-" + i;
+        priorSessionTable.push(sessionUrl);
+    }
+
+    console.log(priorSessionTable);
+
     return (
         <div>
             <Menu/>
             <Switch>
                 <Route exact path="/" component={Home}/>
-                <Route exact path="/about" component={About}/>
+                <Route exact path="/openCollege" render={
+                    (props) =>
+                    <OpenCollege {...props} priorSession={priorSessionTable} />
+                } />
                 <Route exact path="/aboutAmos" component={AboutAmos}/>
                 <Route exact path="/start" component={Start}/>
             </Switch>
