@@ -30,5 +30,6 @@
   ],
   "devDependencies": {
     "react-social-icons": "^4.1.0"
-  }
+  },
+  "homepage" : "https://mossol.net"
 }
