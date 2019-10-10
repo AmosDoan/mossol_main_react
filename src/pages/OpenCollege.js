@@ -15,7 +15,7 @@ class OpenCollege extends Component {
                 <Jumbotron style={styles.container}>
                     <Container>
                         <h1 className="text-white">OpenCollege - Python Programming Group</h1>
-                        <p className="text-white">[#Season 1.] Python Programming부터 Web Programming까지</p>
+                        <p className="text-white">[Season #1] From Python Programming To Web Programming</p>
                     </Container>
                 </Jumbotron>
                 <Container>
@@ -40,6 +40,20 @@ class OpenCollege extends Component {
                         <Col>
                             <img src={PythonBook} width="127" className="float-left mr-3 img-fluid img-profile d-inline-block"/>
                             <img src={WebProgrammingBook} width="127" className="float-left mr-3 img-fluid img-profile d-inline-block"/>
+                        </Col>
+                    </Row>
+                    <Row style={{ marginTop : 30, marginBottom : 30}}>
+                        <Col>
+                            <h1 className="display-5">Website</h1>
+                            <p>- <a href="https://wikidocs.net/book/1">점프투파이썬을 보충 교재로 합니다.</a></p>
+                        </Col>
+                    </Row>
+                    <Row style={{ marginTop : 30, marginBottom : 30}}>
+                        <Col>
+                            <h1 className="display-5">TA</h1>
+                            <p>- <a href="https://mossol.slack.com/">Slack#Mossol</a> Slack을 통하여 질문을 받습니다.</p>
+                            <p>- 채널은 #opencollege 입니다.</p>
+                            <p>- <a href="https://slack.com/intl/en-kr/downloads/windows">Slack 다운로드</a></p>
                         </Col>
                     </Row>
                     <Row style={{ marginTop : 50}}>
@@ -123,7 +137,7 @@ class OpenCollege extends Component {
                                 <tbody>
                                 <tr>
                                     <th scope="row">0</th>
-                                    <td>TBD</td>
+                                    <td><a href="https://mossol.net/season1/session-0/#/">Session #0</a></td>
                                     <td>표준 입출력과 변수의 개념</td>
                                 </tr>
                                 </tbody>
@@ -146,7 +160,7 @@ class OpenCollege extends Component {
                                 {this.props.priorSession.map((row, i) => {
                                     return (<tr>
                                         <th scope="row">{i}</th>
-                                        <td><a href={row}>Session #-{i}</a></td>
+                                        <td><a href={row}>Session #{i}</a></td>
                                         <td></td>
                                     </tr>)
                                 })}
