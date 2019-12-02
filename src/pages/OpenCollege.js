@@ -145,6 +145,11 @@ class OpenCollege extends Component {
                                     <td><a href="https://mossol.net/season1/session-1/#/">Session #1</a></td>
                                     <td>리스트의 개념과 HTML 기초</td>
                                 </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td><a href="https://mossol.net/season1/session-2/#/">Session #2</a></td>
+                                    <td>딕셔너리 개념과 Git의 사용법</td>
+                                </tr>
                                 </tbody>
                             </table>
                         </Col>
