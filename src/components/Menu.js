@@ -54,6 +54,12 @@ class Menu extends Component {
                             <NavItem>
                                 <NavLink to="/openCollege" activeClassName="active" tag={RRNavLink}>오픈컬리지 Python</NavLink>
                             </NavItem>
+                            <NavItem>
+                                <NavLink to="/Register" activeClassName="active" tag={RRNavLink}>Register</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink to="/Login" activeClassName="active" tag={RRNavLink}>Login</NavLink>
+                            </NavItem>
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>
                                     Contents

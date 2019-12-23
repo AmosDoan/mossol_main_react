@@ -1,7 +1,7 @@
 import React from 'react';
 import {Switch, Route}  from 'react-router-dom';
 import Menu from 'components/Menu';
-import {OpenCollege, AboutAmos, Home, Start} from 'pages';
+import {OpenCollege, AboutAmos, Home, Start, Register, Login} from 'pages';
 
 const App = () => {
     let priorSessionTable = [];
@@ -23,6 +23,8 @@ const App = () => {
                 } />
                 <Route exact path="/aboutAmos" component={AboutAmos}/>
                 <Route exact path="/start" component={Start}/>
+                <Route exact path="/register" component={Register}/>
+                <Route exact path="/login" component={Login}/>
             </Switch>
         </div>
     )
