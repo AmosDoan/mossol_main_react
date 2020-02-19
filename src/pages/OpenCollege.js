@@ -165,6 +165,11 @@ class OpenCollege extends Component {
                                     <td><a href="https://mossol.net/season1/session-5/#/">Session #5</a></td>
                                     <td>파이썬 전화번호부 만들기 프로젝트</td>
                                 </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td><a href="https://mossol.net/season1/session-6/#/">Session #6</a></td>
+                                    <td>Computer Network와 Flask</td>
+                                </tr>
                                 </tbody>
                             </table>
                         </Col>
